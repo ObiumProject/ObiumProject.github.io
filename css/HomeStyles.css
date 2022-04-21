@@ -1,0 +1,154 @@
+.paralax {
+    background-image: url(/img/HomeIMG.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 98vh;
+}
+
+.contantBlock2 {
+    height: 90vh;
+    background: linear-gradient(45deg, #643ba2, #b15a9a, #f47595);
+}
+
+.contantBlock3 {
+    height: 80vh;
+    background: whitesmoke;
+
+}
+
+.mainbutton {
+    transition: 1s;
+}
+
+.mainbutton:hover {
+
+    transform: scale(1.2);
+}
+
+.line {
+    height: 10vh;
+}
+
+#colorGray {
+    background-color: rgb(220, 220, 220);
+    border-radius: 40px;
+    width: 40vh;
+    height: 40vh;
+
+}
+
+.contayner {
+    transform: translate(15%, -30%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.button1_1 {
+    background: url(/img/Button1_1.png);
+}
+
+.button1_2 {
+    background: url(/img/Button1_2.png);
+}
+
+.button2_1 {
+    background: url(/img/Button2_1.png);
+}
+
+.button2_2 {
+    background: url(/img/Button2_2.png);
+}
+
+.button3_1 {
+    background: url(/img/Button3_1.png);
+}
+
+.button3_2 {
+    background: url(/img/Button3_2.png);
+}
+
+.one {
+    transform: translateX(117px);
+    width: 90%;
+    height: 131px;
+    background-repeat: no-repeat;
+    transition: 1s;
+
+}
+
+.two {
+    transform: translateX(-265px);
+    width: 291px;
+    height: 131px;
+    transition: 1s;
+}
+
+.contayner:hover .one {
+    transform: translateX(90px);
+}
+
+.contayner:hover .one~.text {
+    width: 270px;
+}
+
+.contaynermidle:hover .one~.text {
+    width: 270px;
+}
+
+.contaynermidle:hover .one {
+    transform: translateX(90px);
+}
+
+.contaynermidle {
+    transform: translate(25%, -30%);
+    overflow: hidden;
+    display: flex;
+}
+
+.counter {
+    text-align: center;
+    font-size: 700%;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.countertext {
+    text-align: center;
+    font-size: 300%;
+    font-family: Roboto;
+    font-style: normal;
+    color: rgb(118, 118, 118);
+}
+
+.contayner a {
+    text-decoration: none;
+}
+
+.contaynermidle a {
+    text-decoration: none;
+}
+
+.text {
+    position: absolute;
+    right: 35%;
+    top: 10%;
+    width: 0;
+    height: 100px;
+    background: rgba(10, 10, 10, 0.9);
+    transition: 2s ease;
+    overflow: hidden;
+    font-family: Roboto;
+    padding: 1rem .5rem;
+}
+
+.text p {
+    color: white;
+    margin: .5rem 0;
+    font-size: xx-large;
+}
+
+footer a {
+    color: rgb(53, 52, 52);
+}

@@ -1,0 +1,89 @@
+.headBlock{
+    background: url(/img/Game_3_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+}
+.bacground {
+    background: linear-gradient(45deg, #643ba2, #b15a9a, #f47595);
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+.tags{
+    background-color: rgba(46, 46, 46, 0.413);
+    color: white;
+    font-size: 240%;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+}
+.mainTag{
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+}
+.informationBlock{
+    border-radius: 3%;
+    background-color: rgba(46, 46, 46, 0.413);
+
+}
+.informationBox{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.carousel-inner img{
+    height: 70vh;
+}
+.download a{
+    font-size: 400%;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    text-decoration: none;
+}
+.headBlockMainText{
+    color: white;
+    font-size: 400%;
+    text-align: end;
+    font-family: Roboto;
+    font-style: normal;
+    padding-top: 20%;
+    padding-right: 3%;
+    text-shadow: 1px 1px 1px gray;
+}
+.headBlockText{
+    color: white;
+    font-size: 270%;
+    text-align: end;
+    font-family: Roboto;
+    font-style: normal;
+    padding-right: 3%;
+    text-shadow: 1px 1px 1px gray;
+}
+.textofinformationbox{
+    color: white;
+    font-size: 200%;
+    font-family: Roboto;
+    font-style: normal;
+    padding-right: 3%;
+    text-shadow: 1px 1px 1px gray;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+.maintextofinformationbox{
+    color: white;
+    font-size: 400%;
+    font-family: Roboto;
+    font-style: normal;
+    padding-right: 3%;
+    text-shadow: 1px 1px 1px gray;
+    padding-left: 2%;
+    padding-top: 2%;
+}

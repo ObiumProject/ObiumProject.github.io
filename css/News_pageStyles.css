@@ -1,0 +1,82 @@
+
+
+.conteiner_big{
+    
+    background: linear-gradient(45deg, #643ba2, #b15a9a, #f47595);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.conteiner_small{
+    background: linear-gradient(45deg, #643ba2, #b15a9a, #f47595);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.back_batton{
+    margin-top: 5vh;
+    background-color: rgba(0, 0, 0, 0.279);
+    height: 6vh;
+    border-radius: 10px;
+}
+
+.back_link{
+    color: white;
+    font-size: 130%;
+    font-family: Roboto;
+    font-style: normal;
+    margin-top: 1vh;
+    padding-left: 7vh;
+}
+
+.date{
+    color: white;
+    font-size: 200%;
+    font-family: Roboto;
+    font-style: normal;
+    margin-top: 10vh;
+}
+
+.title{
+    color: white;
+    font-size: 600%;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.information_space{
+    background-color: rgba(0, 0, 0, 0.279);
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    margin-bottom: 6vh;
+}
+
+.information_text{
+    color: white;
+    font-size: 200%;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.main_information{
+    color: white;
+    font-size: 200%;
+    font-family: Roboto;
+    font-style: normal;
+    margin-top: 5vh;
+}
+
+
+
+   

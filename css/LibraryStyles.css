@@ -1,0 +1,309 @@
+.contant {
+    background: linear-gradient(45deg, #643ba2, #b15a9a, #f47595);
+}
+
+.maingamecontainer {
+    position: absolute;
+    top: 25%
+}
+
+.maingame {
+    height: 70vh;
+    background-image: url(/img/maingame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    color: rgb(146, 146, 146);
+    box-shadow: inset 0 0 0 0.51px rgb(146, 146, 146);
+    transition: 0.5s;
+    margin-top: 150%;
+}
+
+.text {
+    color: white;
+    font-size: 400%;
+}
+
+.maingame a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.button:hover {
+    box-shadow: inset 0 0 0 3px white;
+    color: white;
+
+}
+
+.heightsize {
+    height: 23vh;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    font-family: Roboto;
+    font-size: x-large;
+    width: 11%;
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 0.5%;
+    margin: 0.5%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+input[type="radio"][id="action"]:checked+label {
+    background: #2e2e2e60;
+}
+
+input[type="radio"][id="action"]:checked~.adventure,
+input[type="radio"][id="action"]:checked~.horror,
+input[type="radio"][id="action"]:checked~.rpg,
+input[type="radio"][id="action"]:checked~.simulator,
+input[type="radio"][id="action"]:checked~.strategy,
+input[type="radio"][id="action"]:checked~.quest {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+input[type="radio"][id="action"]:checked~.adventure .toGame,
+input[type="radio"][id="action"]:checked~.horror .toGame,
+input[type="radio"][id="action"]:checked~.rpg .toGame,
+input[type="radio"][id="action"]:checked~.simulator .toGame,
+input[type="radio"][id="action"]:checked~.strategy .toGame,
+input[type="radio"][id="action"]:checked~.quest .toGame {
+    display: none;
+}
+
+input[type="radio"][id="adventure"]:checked+label {
+    background: #2e2e2e60;
+}
+
+input[type="radio"][id="adventure"]:checked~.action,
+input[type="radio"][id="adventure"]:checked~.horror,
+input[type="radio"][id="adventure"]:checked~.rpg,
+input[type="radio"][id="adventure"]:checked~.simulator,
+input[type="radio"][id="adventure"]:checked~.strategy,
+input[type="radio"][id="adventure"]:checked~.quest {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="radio"][id="adventure"]:checked~.action .toGame,
+input[type="radio"][id="adventure"]:checked~.horror .toGame,
+input[type="radio"][id="adventure"]:checked~.rpg .toGame,
+input[type="radio"][id="adventure"]:checked~.simulator .toGame,
+input[type="radio"][id="adventure"]:checked~.strategy .toGame,
+input[type="radio"][id="adventure"]:checked~.quest .toGame {
+    display: none;
+}
+
+input[type="radio"][id="horror"]:checked+label {
+    background: #2e2e2e60;
+}
+
+input[type="radio"][id="horror"]:checked~.adventure,
+input[type="radio"][id="horror"]:checked~.action,
+input[type="radio"][id="horror"]:checked~.rpg,
+input[type="radio"][id="horror"]:checked~.simulator,
+input[type="radio"][id="horror"]:checked~.strategy,
+input[type="radio"][id="horror"]:checked~.quest {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="radio"][id="horror"]:checked~.action .toGame,
+input[type="radio"][id="horror"]:checked~.adventure .toGame,
+input[type="radio"][id="horror"]:checked~.rpg .toGame,
+input[type="radio"][id="horror"]:checked~.simulator .toGame,
+input[type="radio"][id="horror"]:checked~.strategy .toGame,
+input[type="radio"][id="horror"]:checked~.quest .toGame {
+    display: none;
+}
+
+input[type="radio"][id="rpg"]:checked+label {
+    background: #2e2e2e60;
+}
+
+input[type="radio"][id="rpg"]:checked~.adventure,
+input[type="radio"][id="rpg"]:checked~.horror,
+input[type="radio"][id="rpg"]:checked~.action,
+input[type="radio"][id="rpg"]:checked~.simulator,
+input[type="radio"][id="rpg"]:checked~.strategy,
+input[type="radio"][id="rpg"]:checked~.quest {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="radio"][id="rpg"]:checked~.adventure .toGame,
+input[type="radio"][id="rpg"]:checked~.horror .toGame,
+input[type="radio"][id="rpg"]:checked~.action .toGame,
+input[type="radio"][id="rpg"]:checked~.simulator .toGame,
+input[type="radio"][id="rpg"]:checked~.strategy .toGame,
+input[type="radio"][id="rpg"]:checked~.quest .toGame {
+    display: none;
+}
+
+input[type="radio"][id="simulator"]:checked+label {
+    background: #2e2e2e60;
+}
+
+input[type="radio"][id="simulator"]:checked~.adventure,
+input[type="radio"][id="simulator"]:checked~.horror,
+input[type="radio"][id="simulator"]:checked~.rpg,
+input[type="radio"][id="simulator"]:checked~.action,
+input[type="radio"][id="simulator"]:checked~.strategy,
+input[type="radio"][id="simulator"]:checked~.quest {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="radio"][id="simulator"]:checked~.adventure .toGame,
+input[type="radio"][id="simulator"]:checked~.horror .toGame,
+input[type="radio"][id="simulator"]:checked~.action .toGame,
+input[type="radio"][id="simulator"]:checked~.rpg .toGame,
+input[type="radio"][id="simulator"]:checked~.strategy .toGame,
+input[type="radio"][id="simulator"]:checked~.quest .toGame {
+    display: none;
+}
+
+input[type="radio"][id="strategy"]:checked+label {
+    background: #2e2e2e60;
+}
+
+input[type="radio"][id="strategy"]:checked~.adventure,
+input[type="radio"][id="strategy"]:checked~.horror,
+input[type="radio"][id="strategy"]:checked~.rpg,
+input[type="radio"][id="strategy"]:checked~.simulator,
+input[type="radio"][id="strategy"]:checked~.action,
+input[type="radio"][id="strategy"]:checked~.quest {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="radio"][id="strategy"]:checked~.adventure .toGame,
+input[type="radio"][id="strategy"]:checked~.horror .toGame,
+input[type="radio"][id="strategy"]:checked~.action .toGame,
+input[type="radio"][id="strategy"]:checked~.rpg .toGame,
+input[type="radio"][id="strategy"]:checked~.simulator .toGame,
+input[type="radio"][id="strategy"]:checked~.quest .toGame {
+    display: none;
+}
+
+input[type="radio"][id="quest"]:checked+label {
+    background: #2e2e2e60;
+}
+
+input[type="radio"][id="quest"]:checked~.adventure,
+input[type="radio"][id="quest"]:checked~.horror,
+input[type="radio"][id="quest"]:checked~.rpg,
+input[type="radio"][id="quest"]:checked~.simulator,
+input[type="radio"][id="quest"]:checked~.strategy,
+input[type="radio"][id="quest"]:checked~.action {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="radio"][id="quest"]:checked~.adventure .toGame,
+input[type="radio"][id="quest"]:checked~.horror .toGame,
+input[type="radio"][id="quest"]:checked~.action .toGame,
+input[type="radio"][id="quest"]:checked~.rpg .toGame,
+input[type="radio"][id="quest"]:checked~.simulator .toGame,
+input[type="radio"][id="quest"]:checked~.strategy .toGame {
+    display: none;
+}
+
+.tile {
+    width: 44%;
+    height: 250px;
+    float: left;
+    transition: all 1s;
+    padding: 2%;
+    margin: 2%;
+
+}
+
+
+.tile a {
+
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Roboto;
+    font-style: normal;
+    color: rgb(207, 206, 206);
+    padding: 1%;
+    box-shadow: inset 0 0 0 0.51px rgb(146, 146, 146);
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.structure {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gameBlock1 {
+    background: url(/img/Game_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gameBlock2 {
+    background: url(/img/Game_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gameBlock3 {
+    background: url(/img/Game_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gameBlock4 {
+    background: url(/img/Game_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gameBlock5 {
+    background: url(/img/Game_5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.toGame {
+    margin-top: 24%;
+    margin-left: 19%;
+
+    transition: 0.5s;
+}
+
+.tile a:hover {
+    color: white;
+    box-shadow: inset 0 0 0 2px white;
+}

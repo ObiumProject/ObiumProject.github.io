@@ -1,0 +1,92 @@
+.line {
+    height: 10vh;
+}
+
+.mainblock {
+    background: linear-gradient(45deg, #643ba2, #b15a9a, #f47595);
+}
+
+.infotext {
+    font-size: 350%;
+    font-family: Roboto;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+}
+
+.mainblock .col-sm-6 {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.mainblock img {
+    width: 50vh;
+}
+
+.text1 {
+    font-size: 800%;
+    font-family: Roboto;
+    font-style: normal;
+    color: #fff;
+}
+
+.text2 {
+    font-size: 400%;
+    font-family: Roboto;
+    font-style: normal;
+    color: #fff;
+}
+
+.text3 {
+    font-size: 800%;
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text4 {
+    font-size: 450%;
+    font-family: Roboto;
+    font-style: normal;
+    text-align: center;
+
+}
+
+hr {
+    border: 2px solid rgb(255, 165, 247);
+}
+
+.button {
+    background-color: #9437a0;
+    color: white;
+    height: 8vh;
+    font-size: xx-large;
+    font-family: Roboto;
+    font-style: normal;
+    text-align: center;
+    border-radius: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease;
+
+}
+
+.button:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #9437a0;
+    box-shadow: inset 0 0 0 2px #9437a0;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
