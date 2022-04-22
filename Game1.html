@@ -28,7 +28,7 @@
 <body>
 <script type="text/javascript">
       VK.init({
-        apiId: ВАШ_API_ID,
+        apiId: bbd7749079a56ec83c54c09bc0d134b790d5bf8c3ec8102abc5ea38043f08f3797a40b84eccf5d8f4bf2f,
         onlyWidgets: true
       });
 </script>
@@ -172,9 +172,14 @@
         <div class="row download"> <a href="https://www.freegamesdl.net/download/?Angels-of-Death_www.FreeGamesDL.net.zip">DOWNLOAD</a></div>
     </div>
 	<div class="row"><div id="vk_comments"></div>
+<div id="vk_comments"></div>
 <script type="text/javascript">
-  VK.Widgets.Comments('vk_comments');
-</script></div>
+    window.onload = function () {
+     VK.init({apiId: 111, onlyWidgets: true});
+     VK.Widgets.Comments('vk_comments', {limit: 15}, 321);
+    }
+</script>
+	</div>
     <footer>
         <div class="row">
 
